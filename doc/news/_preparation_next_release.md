@@ -373,7 +373,7 @@ removed due to:
   example of old formatting: key1 = value1
   example of new formatting: key1=value1
 
-      	. _(Oleksandr Shabelnyk)_
+. _(Oleksandr Shabelnyk)_
 
 ## Libraries
 
@@ -494,6 +494,7 @@ mounted, use `kdb gen -F <plugin>:<file> elektra <parentKey> <outputName>` to lo
 - We added a [tutorial](../tutorials/benchmarking.md) on how to benchmark the execution time of plugins using [`benchmark_plugingetset`](../../benchmarks/README.md) and [hyperfine](https://github.com/sharkdp/hyperfine). _(René Schwaiger)_
 - The new [profiling tutorial](../tutorials/profiling.md) describes how to determine the execution time of code using [Callgrind](http://valgrind.org/docs/manual/cl-manual.html) and [KCacheGrind/QCacheGrind](https://kcachegrind.github.io/html/Home.html). _(René Schwaiger)_
 - For beginners we added a [tutorial](../tutorials/contributing-clion.md) that guides them through the process of contributing to libelektra. _(Thomas Bretterbauer)_
+- We added a tutorial [tutorial](../tutorials/run-all-tests-with-docker.md) for running all tests with Docker. _(Oleksandr Shabelnyk)_
 
 ### Spelling Fixes
 
